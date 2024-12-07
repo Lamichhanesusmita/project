@@ -1,0 +1,23 @@
+
+nav{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-links{
+    display: flex;
+    gap: 30px;
+    
+  
+  }
+  Link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
