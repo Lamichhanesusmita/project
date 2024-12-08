@@ -1,56 +1,172 @@
-nav{
-    display: inline-flex;
-    padding: 10px 10px;
-    justify-content: space-evenly;
-    
-    border-radius: 10px;
-    align-items: center;
+nav {
+  display: inline-flex;
+  padding: 10px 10px;
+  justify-content: space-evenly;
 
-  
-  }
-  nav h1 img{
-    width: 10%;
-    justify-content: center;
-  }
-  .nav-links{
-    
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-  }
-  .aalu-left img{
-    width: 60% 200%;
-  }
-  
-  .cat h1{
-    text-align: center;
-  }
-  .cat p{
-    font-size: 20px;
-  }
+  border-radius: 10px;
+  align-items: center;
+}
+nav h1 img {
+  width: 10%;
+  justify-content: center;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.aalu-left img {
+  width: 1340px;
+  height: 500px;
+}
+.aalu-right {
+  text-align: end;
+}
 
-  .bikas{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    gap: 40px;
-    margin-left: 30px;
-    margin-right: 30px;
-    
-  }
-  .shovakar img,.janardan img,.madhu img,.pukar img,.prarthana img{
-    width: 30%;
-    border-radius: 50%;
-    margin-top: 5px;
-  }
- .shovakar, .prarthana, .janardan, .madhu,.pukar{
+.bikas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.shovakar img,
+.janardan img,
+.madhu img,
+.pukar img,
+.prarthana img,
+.sarwendra img,
+.Surya img,
+.rekha img,
+.sunil img,
+.sushan img,
+.nabin img,
+.yagya img,
+.maheshwor img,
+.tejan img,
+.sangita img,
+.indira img,
+.bish img {
+  width: 30%;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.shovakar,
+.prarthana,
+.janardan,
+.madhu,
+.pukar,
+.sarwendra,
+.Surya,
+.rekha,
+.sunil,
+.sushan,
+.nabin,
+.yagya,
+.maheshwor,
+.tejan,
+.sangita,
+.indira,
+.bish {
   border: 1px solid black;
   border-radius: 5px;
   text-align: center;
- }
+}
 
+.champa {
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(238, 102, 11);
+  display: flex;
+}
+.champa img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.champa h3 {
+  font-size: 40px;
+}
 
+.champa p {
+  font-size: 20px;
+}
 
-  
-  
-  
+.chapter {
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(238, 102, 11);
+  display: flex;
+}
+
+.chapter img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.chapter h3 {
+  font-size: 40px;
+}
+.chapter p {
+  font-size: 20px;
+}
+
+.chat {
+  margin-top: 30px;
+  border: 1px solid rgb(238, 102, 11);
+  border-radius: 10px;
+  text-align: center;
+}
+.chat h3 {
+  font-size: 40px;
+}
+
+.chat p {
+  text-align: start;
+  font-size: 20px;
+}
+
+.chapal img {
+  border-radius: 50%;
+}
+
+.chapal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.egg {
+  display: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  margin-left: 500px;
+}
+.egg h2,
+h4 {
+  text-align: center;
+}
+.eagle {
+  text-align: center;
+}
+.eagle input {
+  width: 90%;
+}
+
+.eagle h3 {
+  text-align: start;
+}
+.eagle button {
+  margin-top: 20px;
+  background-color: rgb(86, 86, 230);
+  width: 50%;
+}
+.eagle button:hover {
+  background-color: blue;
+}

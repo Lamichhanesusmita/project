@@ -6,6 +6,9 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import TeamPage from "./pages/TeamPage";
+import LoginPage from "./pages/LoginPage"
+
+import Events from "./pages/Events";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,11 +20,9 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/profile" element={<div>This is Profile Page</div>} />
-        <Route
-          path="/contact-us"
-          element={<div> this is Contact us Page</div>}
-        />
+        <Route path="/events" element={<Events />} />
+        <Route path="/login" element={<LoginPage />} />
+        
       </Routes>
     </BrowserRouter>
   );
